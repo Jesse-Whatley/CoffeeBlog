@@ -1,0 +1,185 @@
+/*global*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: arial;
+}
+
+p{
+    line-height: 2;
+}
+
+h2{
+    text-align: center;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+/*utilities*/
+.container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.btn-read-more{
+    background-color: black;
+}
+
+.btn-more-info{
+    background-color: brown;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+}
+
+.flex-main-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-v{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+}
+
+.light-text{
+    font-weight: 300;
+}
+
+/*header*/
+.site-header{
+    background-image: url(../img/banner.jpg);
+    height: 400px;
+}
+.site-header p{
+    color: white;
+    text-align: center;
+}
+
+.main-title{
+    color: white;
+    text-align: center;
+}
+
+.contact-header{
+    background-color: black;
+    height: 100px;
+}
+
+/*nav*/
+.navagation {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.navagation a{
+    color: white;
+    margin-right: 20px;
+}
+
+/*main*/
+.title {
+    margin: 20px 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.main-contact{
+    height: 80vh;
+} 
+
+/*article*/
+.articles{
+
+}
+.article-container{
+    border-bottom: 1px solid darkgrey;
+    margin-bottom: 20px;
+}
+
+.article-container:last-child{
+    border-bottom: none;
+}
+
+/*courses*/
+.course-container{
+
+}
+
+.course-item{
+    border-bottom: 1px solid darkgrey;
+    margin-bottom: 20px;
+}
+
+.course-item:last-child{
+    border-bottom: none;
+}
+
+/*footer*/
+.footer-container {
+    background-color: black;
+    color:white;
+    text-align: center;
+    height: 100px;
+}
+
+/*contact*/
+.contact-flex{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container{
+    background-color: white;
+    padding: 30px;
+    margin-top: -30px;
+}
+
+.input-container{
+    margin-bottom: 15px;
+}
+
+.input-container label{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+
+.input-container input, .input-container textarea{
+    width: 80%;
+    padding: 3px;
+}
+
+.btn-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}

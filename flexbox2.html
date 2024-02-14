@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container{
+            display: flex;
+            flex-direction: row;
+            background-color: lightgray;
+            justify-content: space-around;
+            align-items: center;
+        }
+        header.flex-container{
+            height: 300px;
+        }
+        .flex-image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: darkgray;
+        }
+        header .flex-image{
+            height: 200px;
+            width: 200px;
+        }
+        main .flex-image{
+            height: 200px;
+        }
+        .list-container{
+            background-color: coral;
+            width: 50%;
+            height: 400px;
+        }
+        .text-container{
+            width: 50%;
+            background-color: aqua;
+            height: 400px;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <header class="flex-container">
+        <div class="flex-image">Image</div>
+        <h1> This is a H1</h1>
+    </header>
+
+    <main class="flex-container">
+        <div class="list-container">
+            <h2>This is a list:</h2>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+        </div>
+        <div class="text-container">
+        <div class="flex-image">Insert any image</div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo repudiandae reprehenderit sint iusto sed odio soluta voluptatem! Nisi ea sed quia soluta in alias molestiae molestias, vel, facilis illo inventore.</p>
+        </div>
+    </main>
+</body>
+</html>
