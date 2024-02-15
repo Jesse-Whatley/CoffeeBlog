@@ -93,6 +93,7 @@ img{
     height: 100px;
 }
 
+
 /*nav*/
 .navagation {
     text-align: center;
@@ -117,7 +118,7 @@ img{
 
 /*article*/
 .articles{
-
+    margin-right: 10px;
 }
 .article-container{
     border-bottom: 1px solid darkgrey;
@@ -130,7 +131,7 @@ img{
 
 /*courses*/
 .course-container{
-
+    width: 30px;
 }
 
 .course-item{
@@ -148,6 +149,15 @@ img{
     color:white;
     text-align: center;
     height: 100px;
+}
+
+/*about*/
+.about-img{
+    width: 550px;
+}
+
+.main-about p{
+    line-height: 2;
 }
 
 /*contact*/
