@@ -73,6 +73,10 @@ img{
     font-weight: 300;
 }
 
+.bold-text{
+    font-weight: 700;
+}
+
 /*header*/
 .site-header{
     background-image: url(../img/banner.jpg);
@@ -192,4 +196,26 @@ img{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+}
+
+/*courses*/
+.course-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.courses-container{
+    margin-top: 30px;
+}
+
+.courses-container img{
+    width: 225px;
+    padding: 2px;
+    border: 2px solid lightseagreen;
+    border-radius: 200px;
+}
+
+.courses-container h4{
+    margin-top: 10px;
 }
